@@ -1,0 +1,108 @@
+.nav_bar{
+    padding:30px 5px 5px 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: seagreen;
+    color: #fff;
+    
+}
+
+.nav_with_menu_buttons{
+    display: flex;
+    flex-direction: row;       
+}
+
+.movie_recommender{
+    font-family: 'New Tegomin', serif;
+}
+
+.button_name{
+    font-weight: 400;
+}
+
+.menu_buttons{
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 25px;
+    width: 147px;
+    text-align: center;
+    height: 1.75em;    
+    color:rgba(0,0,0,0.75);
+    font-family: 'Lora', serif;
+}
+.login{
+    text-decoration: none;
+    color: black;
+}
+
+.login:hover{
+    text-decoration: none;
+    color: black;
+}
+.menu_buttons:hover{
+    cursor: pointer;
+    background-color: grey;
+    opacity:0.85;
+    animation-delay: 0.09;
+}
+
+.movies{
+    background-color:rgba(0,0,0,0.9);
+}
+.movie_tiles{
+    
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 120px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.movie_images{
+    margin-right: 180px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.images{
+    border-style: groove;
+    border-width: 5px;
+}
+.images:hover{
+    cursor: pointer;
+    opacity:0.5;
+  filter:alpha(opacity=100);
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    top: 15px;
+    left: 15px;
+    transform: translate(0%, -600%);
+    text-align: center;
+    
+}
+
+.movie_images:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+.movie_name{
+    margin-top: -30px;
+    text-align: center;
+    color:seagreen;
+    font-size: 1.5em;
+}
+
+.movie_name:hover{
+    cursor: pointer;
+}
