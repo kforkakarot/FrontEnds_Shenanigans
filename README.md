@@ -1,5 +1,5 @@
 # FrontEnds_Shenanigans
-Some of my FrontEnd Works. Which I Deployed Over my azure instance. I used IIS for runnig these static pages
+Some of my FrontEnd Works. Which I Deployed Over my azure instance. I used IIS for running these static pages
 
 ![Screenshot (210)](https://user-images.githubusercontent.com/55833494/178897026-b0139a6e-cc82-4671-8f87-c6795b798c99.png)
 
